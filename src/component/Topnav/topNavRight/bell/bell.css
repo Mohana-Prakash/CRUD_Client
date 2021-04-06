@@ -1,0 +1,17 @@
+.bell {
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+  margin-right: 35px;
+  cursor: pointer;
+}
+.bellicon {
+  font-size: 20px !important;
+  color: gray;
+}
+
+@media only screen and (max-width: 380px) {
+  .bell {
+    margin-right: 26px;
+  }
+}

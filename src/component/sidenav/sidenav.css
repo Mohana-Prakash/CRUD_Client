@@ -1,0 +1,10 @@
+.sidenav {
+  background-image: linear-gradient(#ff8866, #fd65a5);
+  width: 50px;
+  /* height: 100vh; */
+  align-items: center;
+  text-align: center;
+}
+.sidenav:hover{
+  background-image: linear-gradient(#fd65a5,#ff8866);
+}

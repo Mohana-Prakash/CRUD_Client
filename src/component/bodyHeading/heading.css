@@ -1,0 +1,90 @@
+.heading {
+  display: flex;
+  margin: 16px 56px 16px;
+}
+.contacts h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 500;
+}
+.contacts h4 {
+  margin: 0;
+  font-size: 12px;
+  color: grey;
+  font-weight: 500;
+}
+.contacticon {
+  color: rgb(255, 92, 116);
+  font-size: 40px !important;
+  margin: 8px 10px 0 0;
+}
+.contactSort {
+  display: flex;
+  margin: 0;
+  color: grey;
+  margin-left: 40px;
+  font-weight: 500;
+}
+.contactSort span {
+  color: black;
+  font-weight: 500;
+}
+.down {
+  margin-top: 19px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .contacts h1 {
+    font-size: 21px;
+  }
+  .contacticon {
+    font-size: 36px !important;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .heading {
+    margin: 8px;
+  }
+  .contacts h1 {
+    font-size: 19px;
+  }
+  .contacticon {
+    font-size: 26px !important;
+    margin: 8px 10px 0 0;
+  }
+  .contacts h4 {
+    font-size: 11px;
+  }
+  .contactSort {
+    margin-left: 20px;
+    font-size: 13px;
+  }
+  .down {
+    margin-top: 14px;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .heading {
+    margin: 8px;
+  }
+  .contacts h1 {
+    font-size: 17px;
+  }
+  .contacticon {
+    font-size: 22px !important;
+    margin: 8px 4px 0 0;
+  }
+  .contacts h4 {
+    font-size: 10px;
+  }
+  .contactSort {
+    margin-left: 16px;
+    font-size: 11px;
+  }
+  .down {
+    margin-top: 14px;
+    font-size: 17px !important;
+  }
+}

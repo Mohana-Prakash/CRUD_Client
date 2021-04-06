@@ -1,0 +1,122 @@
+.usertable {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgba(237, 235, 236, 255);
+}
+.addIcon {
+  font-size: 16px !important;
+  color: black;
+}
+.checkBox {
+  width: 3%;
+  margin: 0;
+  color: grey;
+  display: flex;
+  align-items: center;
+}
+.check_box{
+  padding: 0px !important;
+}
+.checkBoxIcon {
+  font-size: 16px !important;
+}
+.info {
+  width: 32%;
+  margin: 0;
+  color: grey;
+  display: flex;
+}
+.comp_name {
+  width: 22%;
+  margin: 0;
+  color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h4 {
+  margin: 0px;
+  font-weight: 500;
+}
+p {
+  margin: 0;
+  font-size: 12px;
+}
+.user_info {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px 0;
+}
+.user_info:hover {
+  background-color: rgba(237, 235, 236, 255);
+  cursor: grab;
+}
+.user__shortname {
+  width: 40px;
+  height: 40px;
+  margin-right: 16px;
+  background: #03f4fc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+}
+.user__shortname p {
+  font-size: 16px;
+}
+.actions{
+  width: 22%;
+  text-align: center;
+  color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.edit_icon{
+  color: #03f4fc;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.edit_icon:hover{
+  color: black;
+}
+.delete_icon{
+  color: #fc0303;
+  cursor: pointer;
+}
+.delete_icon:hover{
+  color: black;
+}
+@media only screen and (max-width: 768px) {
+  h4 {
+    font-size: 13px;
+  }
+  .addbutton {
+    width: 6%;
+  }
+  .addIcon {
+    font-size: 12px !important;
+    color: black;
+  }
+  .checkBox {
+    width: 6%;
+  }
+  .checkBoxIcon {
+    font-size: 12px !important;
+  }
+  .info {
+    width: 55%;
+  }
+  .comp_name {
+    width: 26%;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  h4 {
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,121 @@
+.addbtn {
+  margin-left: 20px;
+  background-image: linear-gradient(#ff8866, #fd65a5);
+  border: none;
+  outline: none;
+  padding: 13px;
+  font-size: 14px;
+  color: white;
+  letter-spacing: 1px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.addbtn:hover{
+  background-image: linear-gradient(#fd65a5,#ff8866);
+  transition: 05s;
+}
+.formModal {
+  width: 30%;
+  margin: auto;
+  height: 430px;
+}
+.form{
+  padding: 10px;
+  background: white;
+  border-radius: 6px;
+}
+.formDetail{
+  display: flex;
+  margin-top: 30px;
+}
+.formHeading h1{
+  font-size: 20px;
+  color: black;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+.close_modal{
+  display: flex;
+  justify-content: flex-end;
+}
+.closeIcon{
+  color: black;
+  font-size: 20px !important;
+  cursor: pointer;
+}
+.formDetail h4{
+  width: 26%;
+  color: black;
+  font-size: 16px;
+}
+.formDetail input{
+  background: transparent;
+  width: 70%;
+  border: none;
+  outline: none;
+  border-bottom: solid 1px black;
+  text-align: center;
+  color: black;
+  font-size: 16px;
+}
+.submit{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.submit_btn {
+  outline: none;
+  padding: 10px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: transparent;
+  color: black;
+  border: black solid 1px;
+}
+.submit_btn:hover{
+  border: black 1px solid;
+  background-color: black;
+  color: white;
+}
+@media only screen and (max-width: 768px) {
+  .addbtn {
+    padding: 12px;
+    font-size: 13px;
+  }
+  .formModal {
+    width: 30%;
+    margin: auto;
+    height: 400px;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .addbtn {
+    padding: 10px;
+    font-size: 12px;
+    color: white;
+    letter-spacing: 0.5px;
+    margin: 6px 0 0 10px;
+  }
+  .formModal {
+    width: 30%;
+    margin: auto;
+    height: 400px;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .addbtn {
+    padding: 8px;
+    font-size: 10px;
+    color: white;
+    letter-spacing: 0.5px;
+    margin: 6px 0 0 10px;
+  }
+  .formModal {
+    width: 80%;
+    margin: auto;
+    height: 400px;
+  }
+}

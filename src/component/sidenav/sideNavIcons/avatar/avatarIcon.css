@@ -1,0 +1,10 @@
+.avatar {
+  padding-top: 15px;
+  color: white;
+  cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+  .avatarIcon {
+    font-size: 20px !important;
+  }
+}

@@ -1,0 +1,15 @@
+.add {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.add h4 {
+  font-size: 14px;
+  font-weight: 500;
+  color: gray;
+  margin: 0;
+}
+.addicon {
+  font-size: 16px !important;
+  color: gray;
+}

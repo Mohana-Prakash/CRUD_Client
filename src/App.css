@@ -1,0 +1,90 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.nav {
+  display: flex;
+}
+.search {
+  display: flex;
+  margin: 0 7%;
+}
+.contact_info {
+  display: flex;
+  justify-content: space-between;
+  margin: 35px 4% 35px;
+}
+.tableHeading {
+  width: 52%;
+}
+.card {
+  width: 40%;
+  height: 370px;
+  background-color: rgba(237, 235, 236, 255);
+  padding: 16px 30px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .card {
+    width: 45%;
+  }
+  .tableHeading {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 38%;
+  }
+  .tableHeading {
+    width: 46%;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .contact_info {
+    display: block;
+    margin: 16px 2% 16px;
+  }
+  .tableHeading {
+    width: 100%;
+  }
+  .card {
+    width: 81%;
+    margin-top: 20px;
+  }
+  .search {
+    margin: 0 2%;
+  }
+}
